@@ -1,3 +1,4 @@
+import logo from './assets/logo.png'
 export default {
   name: 'hello',
   props: {
@@ -12,7 +13,7 @@ export default {
     }, [
       h('img', {
         attrs: {
-          src: './assets/logo.png'
+          src: logo
         }
       }),
       h('h3', 'Welcome to ' + this.msg)
